@@ -1,0 +1,255 @@
+Skip to primary navigation
+Skip to main content
+Sal Ferrarello
+About Sal Ferrarello
+Speaking
+Connect
+Search for:
+Search …
+You are here: Home / Dev Tips / .gitignore for WordPress
+Man with Eyes Covered
+.gitignore for WordPress
+Last updated on February 11, 2021 by Sal Ferrarello
+
+Originally when I started using Git with my WordPress projects, I checked in all the files (WordPress core, plugins, themes, and even uploads). Over time I’ve found that to be less than ideal.
+
+My preferred .gitignore file appears below and it ignores everything by default. This allows me to whitelist only those plugins and themes I wish to include in my repo.
+
+Note: While I use this .gitignore for WordPress projects, for stand-alone plugins or themes I use a general .gitignore.
+
+# -----------------------------------------------------------------
+# .gitignore for WordPress @salcode
+# ver 20180808
+#
+# From the root of your project run
+# curl -O https://gist.githubusercontent.com/salcode/b515f520d3f8207ecd04/raw/.gitignore
+# to download this file
+#
+# By default all files are ignored.  You'll need to whitelist
+# any mu-plugins, plugins, or themes you want to include in the repo.
+#
+# To ignore uncommitted changes in a file that is already tracked, use 
+# git update-index --assume-unchanged
+#
+# To stop tracking a file that is currently tracked, use 
+# git rm --cached
+#
+# Change Log:
+# 20180808 unignore site.webmanifest
+# 20180714 unignore .phpcs.xml.dist
+# 20160309 Added favicon files as whitelisted files
+# 20150302 Added composer.json as a whitelisted file
+# 20150227 Created as fork of https://gist.github.com/salcode/9940509,
+#   this version ignores all files by default
+# -----------------------------------------------------------------
+
+# ignore everything in the root except the "wp-content" directory.
+/*
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# mu-plugins, plugins, and themes directories
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+# ignore all mu-plugins, plugins, and themes
+# unless explicitly whitelisted at the end of this file
+wp-content/mu-plugins/*
+wp-content/plugins/*
+wp-content/themes/*
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+!README.md
+!CHANGELOG.md
+!composer.json
+
+# track favicon files, if they exist
+!android-chrome-*.png
+!apple-touch-icon*.png
+!browserconfig.xml
+!favicon*.png
+!favicon*.ico
+!manifest.json
+!mstile-*.png
+!safari-pinned-tab.svg
+!site.webmanifest
+
+# track these mu-plugins, plugins, and themes
+# add your own entries here
+!wp-content/mu-plugins/example-mu-plugin/
+!wp-content/plugins/example-plugin/
+!wp-content/themes/example-theme/
+view raw.gitignore hosted with ❤ by GitHub
+Why Exclude Most Files?
+I update plugins on the server using the built-in WordPress update functionality. When a plugin is updated on a server in this way, it becomes out of sync with the Git repo. The particular situation I want to avoid is pushing an outdated version of a plugin from my local machine to the live site.
+
+This same argument applies to WordPress core and theme files.
+
+What I Include
+I only include plugins and themes that are specific to the project. For example, if I’m creating a custom theme for the project, the theme gets included in the repo. If I write a plugin specific to this project (e.g. a plugin to create the custom post types on the project), it gets included in the repo.
+
+What I Don’t Include
+Any plugin or theme that lives somewhere else is not included in the repo. Some examples include:
+
+a plugin available in the WordPress.org repo (e.g. Simple Google Analytics Tracking)
+a parent theme (e.g. the Genesis framework parent theme)
+a plugin that includes its own update routine (e.g. Gravity Forms)
+Keeping Track of Plugins
+Since I don’t include most plugins in my Git repo, it is helpful to keep a list of them for creating a new copy of the project. While this can be a simple list of plugins to install, instead I use Composer to load my plugins automatically.
+
+Photo Credit
+PublicDomainPictures.net
+
+Sal Ferrarello
+Sal Ferrarello (@salcode)
+Sal is a PHP developer with a focus on the WordPress platform. He is a conference speaker with a background including Piano Player, Radio DJ, Magician/Juggler, Beach Photographer, and High School Math Teacher. Sal can be found professionally at WebDevStudios, where he works as a senior backend engineer.
+Share this post:
+Share onTwitter	Share onFacebook	Share onLinkedIn	Share onEmail	Share onReddit
+Filed Under: Dev Tips, Programming Tagged With: Git, gitignore, WordPress
+
+Reader Interactions
+Comments
+Anh Tran says
+
+February 27, 2017 at 8:19 pm
+
+Nice list. I’d love to add .idea to the list. It’s the hidden folder created by PHPStorm (a popular PHP IDE which supports greatly WordPress).
+
+Reply
+Sal Ferrarello says
+
+February 28, 2017 at 11:09 am
+
+Hi Anh,
+
+I think that is a great directory to ignore. In my tests, I’m seeing the .idea directory ignored because of the rule .* (which should ignore everything that starts with a period).
+
+Of course, if you’re seeing different behavior, let me know and I’d like to check it out.
+
+Thanks.
+
+Reply
+Sridhar Katakam says
+
+May 2, 2017 at 8:36 am
+
+Hi Sal,
+
+There’s a “backup-db” folder which gets created under “wp-content” by the https://wordpress.org/plugins/wp-dbmanager/ plugin after a backup has been generated via that plugin.
+
+http://d.pr/i/qYUU1
+
+I’d like this folder incl. its contents to be tracked by Git along with “altitude-pro” theme and all plugins.
+
+This is my .gitignore: https://pastebin.com/raw/UP1iwwzN
+
+With the above in place, Git is tracking only .htaccess file inside “backup-db”, but not the .sql file and index.php.
+
+Any ideas?
+
+Reply
+Sal Ferrarello says
+
+May 2, 2017 at 1:52 pm
+
+Hi Sridhar,
+
+While you can include the files you mention, it is best practice to exclude them. Git is great at keeping track of your source code files and the history that goes along with them, however it isn’t a tool for making a complete backup of your site. If you checkout some of the other recommended .gitignore files (e.g. GitHub’s Recommended WordPress .gitignore) you’ll see they also exclude these types of files. Here are some of the things I recommend excluding and why:
+
+/uploads Git is designed for text files not binary files. While it makes sense to include some image files in a Git repo (e.g. those that are part of your theme), including a large number of images is going to cause your repository to become huge and slow
+/backup-db The contents of a backup directory change constantly (most often daily). Adding all these changes to your repository introduces a lot of noise as well as causing the repository to become big and slow
+/plugins This exclusion is a little more controversial. Previously, when I did include my plugins in my repo, it created a great deal of noise when plugins updated. It was frustrating and not a good use of my time. I still keep project specific plugins in my repo but anything with a canonical version that lives elsewhere (e.g. plugins from the wordpress.org repo) are not included. Personally, I include my plugins via Composer, which does require a little more setup. I’ve also considered including a file that allows me to use WP-CLI to load the plugins, but I’ve not explored this idea.
+While I don’t recommend doing this, it is technically possible to include the files you mention. In my tests, I’m showing `/wp-content/backup-db/index.php` is included when I use your .gitignore file. Regarding the database backup files, the reason the sql files are not being included is you need to add an asterisk changing this line
+
+!.sql
+to this
+
+!*.sql
+I hope this information helps.
+
+Reply
+Sridhar Katakam says
+
+May 2, 2017 at 6:07 pm
+
+I understand the recommendations but my use case is different.
+
+Changing to `!*.sql` made Git track for the .sql file.
+
+Thanks for the code Sal.
+
+Reply
+Ricky says
+
+July 21, 2020 at 11:39 pm
+
+This is awesome, thanks Sal!
+
+Reply
+Maria Campbell says
+
+June 10, 2021 at 9:31 am
+
+Hi Sal, this is exactly what I was looking for and the first post that was helpful in showing what to ignore in a WordPress instance and explains it so nicely. Thanks for writing this post!
+
+Reply
+Leave a Reply
+Your email address will not be published. Required fields are marked *
+
+Comment
+
+Name *
+
+Email *
+
+Website
+
+Copyright © 2021 · Bootstrap4 Genesis on Genesis Framework · WordPress · Log in
