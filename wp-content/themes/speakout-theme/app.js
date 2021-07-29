@@ -1,0 +1,37 @@
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnMore = document.getElementById("btn-more");
+  var btnLess = document.getElementById("btn-less");
+
+  if(dots.style.display === "none")
+  {
+    dots.style.display = "inline";
+    btnMore.style.display = "inline";
+    btnLess.style.display = "none";
+    moreText.style.display = "none";
+
+  }
+  else
+  {
+    dots.style.display = "none";
+    btnMore.style.display = "none"
+    btnLess.style.display = "block";
+    btnLess.style.margin = "0 auto";
+    moreText.style.display = "inline";
+  }
+}
+
+jQuery (function($){
+
+  $('.close-message-btn').click(function(){
+    $('.woocommerce-message').fadeToggle();
+  });
+});
+
+jQuery (function($){
+
+  $('.single_add_to_cart_button').click(function(){
+    $('.woocommerce-message').fadeIn();
+  });
+});

@@ -1,0 +1,204 @@
+2021-07-28T11:46:04+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 115
+
+2021-07-28T11:46:04+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 115
+
+2021-07-28T13:10:36+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - int in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:111
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 111
+
+2021-07-28T13:10:36+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - int in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:111
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 111
+
+2021-07-28T14:00:44+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 119
+
+2021-07-28T14:00:44+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 119
+
+2021-07-28T14:01:06+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 119
+
+2021-07-28T14:01:06+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 119
+
+2021-07-28T14:01:42+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 119
+
+2021-07-28T14:01:43+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 119
+
+2021-07-28T14:01:56+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 119
+
+2021-07-28T14:01:57+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 119
+
+2021-07-28T14:02:38+00:00 CRITICAL Uncaught Error: Call to undefined function action_remove() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:117
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): content_after_qty('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php(28): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2984): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_single_variation_add_to_cart_button('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\single-product\add-to-cart\variable.php(70): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1674): wc_get_template('single-product/...', Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1620): do_action('woocommerce_var...')
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#22 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(971): wc_get_template_part('content', 'single-product')
+#23 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce.php(3): woocommerce_content()
+#24 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 117
+
+2021-07-28T14:02:59+00:00 CRITICAL Uncaught Error: Call to undefined function action_remove() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:117
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): content_after_qty('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php(28): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2984): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_single_variation_add_to_cart_button('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\single-product\add-to-cart\variable.php(70): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1674): wc_get_template('single-product/...', Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1620): do_action('woocommerce_var...')
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#22 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(971): wc_get_template_part('content', 'single-product')
+#23 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce.php(3): woocommerce_content()
+#24 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 117
+
+2021-07-28T14:03:44+00:00 CRITICAL Uncaught Error: Call to undefined function action_remove() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:117
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): content_after_qty('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php(28): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2984): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_single_variation_add_to_cart_button('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\single-product\add-to-cart\variable.php(70): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1674): wc_get_template('single-product/...', Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1620): do_action('woocommerce_var...')
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#17 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#22 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(971): wc_get_template_part('content', 'single-product')
+#23 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce.php(3): woocommerce_content()
+#24 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 117
+
+2021-07-28T14:16:18+00:00 CRITICAL syntax error, unexpected identifier "add_action" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 120
+
+2021-07-28T14:16:19+00:00 CRITICAL syntax error, unexpected identifier "add_action" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 120
+
+2021-07-28T14:16:29+00:00 CRITICAL syntax error, unexpected identifier "add_action" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 120
+
+2021-07-28T14:16:29+00:00 CRITICAL syntax error, unexpected identifier "add_action" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 120
+
+2021-07-28T14:16:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 124 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:394
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php(124): add_action('woocommerce_tem...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): move_excerpt('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\single-product\add-to-cart\variable.php(61): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1674): wc_get_template('single-product/...', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1620): do_action('woocommerce_var...')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#17 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(971): wc_get_template_part('content', 'single-product')
+#18 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce.php(3): woocommerce_content()
+#19 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 394
+
+2021-07-28T14:17:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 124 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:394
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php(124): add_action('woocommerce_tem...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): move_excerpt('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\single-product\add-to-cart\variable.php(61): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1674): wc_get_template('single-product/...', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1620): do_action('woocommerce_var...')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#17 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(971): wc_get_template_part('content', 'single-product')
+#18 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce.php(3): woocommerce_content()
+#19 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 394
+
+2021-07-28T15:13:05+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 124
+
+2021-07-28T15:13:06+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 124
+
+2021-07-28T17:30:09+00:00 CRITICAL syntax error, unexpected identifier "do_action", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php on line 21
+

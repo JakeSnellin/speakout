@@ -1,0 +1,6 @@
+2021-07-19T17:13:05+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 32
+
+2021-07-19T17:13:06+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 32
+
+2021-07-19T17:25:18+00:00 CRITICAL syntax error, unexpected single-quoted string "woocommerce", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\cart\cart-totals.php on line 28
+

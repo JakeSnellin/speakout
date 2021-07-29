@@ -1,0 +1,4 @@
+2021-07-23T17:34:23+00:00 CRITICAL syntax error, unexpected identifier "clickMe", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\notices\success.php on line 30
+
+2021-07-23T17:41:09+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\notices\success.php on line 31
+

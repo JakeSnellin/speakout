@@ -1,0 +1,131 @@
+2021-07-22T16:04:34+00:00 CRITICAL Uncaught Error: Call to undefined function tml_get_form() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 98
+
+2021-07-22T16:04:35+00:00 CRITICAL Uncaught Error: Call to undefined function tml_get_form() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 98
+
+2021-07-22T16:04:54+00:00 CRITICAL Uncaught Error: Call to undefined function tml_get_form() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 98
+
+2021-07-22T16:04:54+00:00 CRITICAL Uncaught Error: Call to undefined function tml_get_form() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 98
+
+2021-07-22T16:06:28+00:00 CRITICAL Uncaught Error: Call to undefined function tml_get_form() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 96
+
+2021-07-22T16:06:29+00:00 CRITICAL Uncaught Error: Call to undefined function tml_get_form() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:96
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 96
+
+2021-07-22T16:40:46+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 84
+
+2021-07-22T16:40:47+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 84
+
+2021-07-22T18:26:33+00:00 CRITICAL syntax error, unexpected token "*", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 113
+
+2021-07-22T18:26:34+00:00 CRITICAL syntax error, unexpected token "*", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 113
+
+2021-07-22T19:24:39+00:00 CRITICAL Can't use method return value in write context in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 117
+
+2021-07-22T19:24:39+00:00 CRITICAL Can't use method return value in write context in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 117
+
+2021-07-22T21:18:36+00:00 CRITICAL syntax error, unexpected identifier "s", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 86
+
+2021-07-22T21:18:36+00:00 CRITICAL syntax error, unexpected identifier "s", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 86
+
+2021-07-22T21:36:14+00:00 CRITICAL Uncaught TypeError: DOMXPath::__construct(): Argument #1 ($document) must be of type DOMDocument, null given in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:84
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php(84): DOMXPath->__construct(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): display_custom_error_message('<strong>Error</...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('<strong>Error</...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(983): apply_filters('login_errors', '<strong>Error</...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::process_login('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#8 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 84
+
+2021-07-22T21:36:54+00:00 CRITICAL Uncaught TypeError: DOMXPath::__construct(): Argument #1 ($document) must be of type DOMDocument, null given in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:84
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php(84): DOMXPath->__construct(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): display_custom_error_message('<strong>Error</...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('<strong>Error</...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(983): apply_filters('login_errors', '<strong>Error</...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::process_login('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#8 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 84
+
+2021-07-22T21:47:43+00:00 CRITICAL Uncaught TypeError: DOMXPath::__construct(): Argument #1 ($document) must be of type DOMDocument, null given in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:84
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php(84): DOMXPath->__construct(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): display_custom_error_message('<strong>Error</...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('<strong>Error</...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(983): apply_filters('login_errors', '<strong>Error</...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::process_login('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#8 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 84
+
+2021-07-22T22:07:28+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 85
+
+2021-07-22T22:07:28+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 85
+

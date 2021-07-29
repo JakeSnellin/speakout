@@ -1,0 +1,227 @@
+2021-07-16T23:28:57+00:00 CRITICAL Uncaught Error: Call to undefined function insertButtonClass() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:65
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): custom_class('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_my...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 65
+
+2021-07-16T23:31:49+00:00 CRITICAL Uncaught Error: Undefined constant "document" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:66
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): customClass('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_my...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 66
+
+2021-07-16T23:41:25+00:00 CRITICAL Uncaught Error: Undefined constant "document" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:66
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): customClass('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_my...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 66
+
+2021-07-16T23:41:26+00:00 CRITICAL Uncaught Error: Undefined constant "document" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:66
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): customClass('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_my...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 66
+
+2021-07-16T23:43:48+00:00 CRITICAL Uncaught Error: Call to undefined function insertButtonClass() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): customClass('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_my...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 64
+
+2021-07-16T23:46:44+00:00 CRITICAL Uncaught Error: Call to undefined function insertButtonClass() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): customClass('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_my...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 64
+
+2021-07-16T23:47:01+00:00 CRITICAL Uncaught Error: Call to undefined function insertButtonClass() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): customClass('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_my...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#20 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 64
+
+2021-07-16T23:55:54+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 65
+
+2021-07-16T23:55:55+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 65
+
+2021-07-16T23:59:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "insertButtonClass" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#8 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#15 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#19 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 292
+

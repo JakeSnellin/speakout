@@ -1,0 +1,33 @@
+2021-07-15T13:56:40+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): wdm_add_custom_fields('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(987): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce.php(3): woocommerce_content()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 68
+
+2021-07-15T14:46:55+00:00 CRITICAL Cannot redeclare start_my_own_tag() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:66) in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 68
+
+2021-07-15T14:46:55+00:00 CRITICAL Cannot redeclare start_my_own_tag() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php:66) in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 68
+
+2021-07-15T16:01:32+00:00 CRITICAL syntax error, unexpected integer "30", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 60
+
+2021-07-15T16:01:32+00:00 CRITICAL syntax error, unexpected integer "30", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 60
+
+2021-07-15T16:01:42+00:00 CRITICAL syntax error, unexpected identifier "remove_action" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 62
+
+2021-07-15T16:01:42+00:00 CRITICAL syntax error, unexpected identifier "remove_action" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 62
+
+2021-07-15T16:02:43+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 71
+
+2021-07-15T16:02:44+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 71
+
+2021-07-15T16:07:35+00:00 CRITICAL syntax error, unexpected token "/" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 72
+
+2021-07-15T16:07:35+00:00 CRITICAL syntax error, unexpected token "/" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\functions.php on line 72
+

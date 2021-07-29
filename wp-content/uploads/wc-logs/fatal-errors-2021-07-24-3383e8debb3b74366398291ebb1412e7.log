@@ -1,0 +1,35 @@
+2021-07-24T11:16:36+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\form-billing.php on line 88
+
+2021-07-24T11:16:43+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\form-billing.php on line 88
+
+2021-07-24T22:31:11+00:00 CRITICAL syntax error, unexpected identifier "esc_html__", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 60
+
+2021-07-24T22:31:12+00:00 CRITICAL syntax error, unexpected identifier "esc_html__", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 60
+
+2021-07-24T22:31:51+00:00 CRITICAL Uncaught ArgumentCountError: 4 arguments are required, 3 given in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:60
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php(60): sprintf('<a href="%s" cl...', '', 'View cart')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): custom_cart_message('<a href="http:/...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('<a href="http:/...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-cart-functions.php(133): apply_filters('wc_add_to_cart_...', '<a href="http:/...', Array, true)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(919): wc_add_to_cart_message(Array, true)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(247)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 60
+
+2021-07-24T22:34:02+00:00 CRITICAL syntax error, unexpected identifier "esc_html", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 63
+
+2021-07-24T22:34:02+00:00 CRITICAL syntax error, unexpected identifier "esc_html", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 63
+
+2021-07-24T23:25:01+00:00 CRITICAL syntax error, unexpected single-quoted string "<a href="%s" class="button wc-...", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 83
+
+2021-07-24T23:25:01+00:00 CRITICAL syntax error, unexpected single-quoted string "<a href="%s" class="button wc-...", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 83
+
