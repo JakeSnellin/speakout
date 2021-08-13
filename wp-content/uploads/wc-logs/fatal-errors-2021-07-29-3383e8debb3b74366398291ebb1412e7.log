@@ -1,0 +1,12 @@
+2021-07-29T13:26:27+00:00 CRITICAL syntax error, unexpected identifier "esc_html_e" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\cart\proceed-to-checkout-button.php on line 25
+
+2021-07-29T14:47:25+00:00 CRITICAL Cannot redeclare remove_filter() (previously declared in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:286) in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 186
+
+2021-07-29T14:47:25+00:00 CRITICAL Cannot redeclare remove_filter() (previously declared in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:286) in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 186
+
+2021-07-29T16:49:51+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 187
+
+2021-07-29T16:49:52+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 187
+
+2021-07-29T18:24:25+00:00 CRITICAL syntax error, unexpected token ">" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\header.php on line 26
+

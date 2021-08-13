@@ -136,50 +136,103 @@ add_action( 'woocommerce_before_add_to_cart_quantity', 'ts_quantity_minus_sign' 
 function ts_quantity_minus_sign() {
    echo '<button type="button" class="minus" >-</button>';
 }
- 
-add_action( 'wp_footer', 'ts_quantity_plus_minus' );
- 
-function ts_quantity_plus_minus() {
-   // To run this on the single product page
-   if ( ! is_product() ) return;
-   ?>
-   <script type="text/javascript">
-          
-      jQuery(document).ready(function($){   
-          
-            $('form.cart').on( 'click', 'button.plus, button.minus', function() {
- 
-            // Get current quantity values
-            var qty = $( this ).closest( 'form.cart' ).find( '.qty' );
-            var val   = parseFloat(qty.val());
-            var max = parseFloat(qty.attr( 'max' ));
-            var min = parseFloat(qty.attr( 'min' ));
-            var step = parseFloat(qty.attr( 'step' ));
- 
-            // Change the value if plus or minus
-            if ( $( this ).is( '.plus' ) ) {
-               if ( max && ( max <= val ) ) {
-                  qty.val( max );
-               } 
-            else {
-               qty.val( val + step );
-                 }
-            } 
-            else {
-               if ( min && ( min >= val ) ) {
-                  qty.val( min );
-               } 
-               else if ( val > 1 ) {
-                  qty.val( val - step );
-               }
-            }
-             
-         });
-          
-      });
-          
-   </script>
-   <?php
+
+add_theme_support( 'wc-product-gallery-zoom' );
+
+remove_theme_support( 'wc-product-gallery-lightbox' );
+
+add_theme_support( 'wc-product-gallery-slider' );
+
+?>
+
+<?php
+
+add_filter( 'woocommerce_form_field', 'checkout_fields_inline_label_error', 10, 4 );
+
+function checkout_fields_inline_label_error( $field, $key, $args, $value ) {
+    
+   if ( strpos( $field, '</span>' ) !== false && $args['required'] ) {
+      $error = '<span class="error" style="display:none">';
+      $error .= sprintf( __( '%s is a required field *', 'woocommerce' ), $args['label'] );
+      $error .= '</span>';
+      $field = substr_replace( $field, $error, strpos( $field, '</span>' ), 0);
+   }
+   return $field;
 }
+
+
+function ShowOneError($fields, $errors){
+    //if their are any validation errors
+
+    if(!empty($errors->get_error_codes())){
+        //remove all error messages
+
+        foreach($errors->get_error_codes() as $code){
+            $errors->remove($code);
+        }
+
+        //our custom Error msg
+
+        $errors->add('validation', 'Invalid or missing information. Please check again.');
+    }
+}
+
+add_action('woocommerce_after_checkout_validation','ShowOneError', 999, 2);
  
+
+function custom_returning_customer_message() {
+return 'Already have an account?';
+}
+
+
+add_filter( 'woocommerce_checkout_login_message', 'custom_returning_customer_message' );
+
+add_filter( 'woocommerce_cart_item_name', 'product_image_on_checkout', 10, 3 );
+ 
+function product_image_on_checkout( $name, $cart_item, $cart_item_key ) {
+     
+    /* Return if not checkout page */
+    if ( ! is_checkout() ) {
+        return $name;
+    }
+     
+    /* Get product object */
+    $_product = apply_filters( 'woocommerce_cart_item_product', $cart_item['data'], $cart_item, $cart_item_key );
+ 
+    /* Get product thumbnail */
+    $thumbnail = $_product->get_image('checkout-thumb');
+ 
+    /* Add wrapper to image and add some css */
+    $image = '<div class="checkout-product-image">'
+                . $thumbnail .
+            '</div>'; 
+
+    $name = '<span class="product-title">' . $name . '</span>';
+ 
+    /* Prepend image to name and return it */
+    return $image . $name;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
 

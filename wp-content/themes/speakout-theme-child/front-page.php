@@ -14,7 +14,9 @@
             
             <img src="<?php bloginfo('template_directory');?>/Images/logo_type_condensed_white.svg" class="img-fluid logo-type">
 
-            <button type="button" class="btn btn-light btn-small"><span>Shop Now</span></button>
+            <!--<button type="button" class="btn btn-light btn-small"><span>Shop Now</span></button>-->
+
+            <a href="http://speakout/shop/" class="shop-now-btn" role="button" aria-pressed="true"><?php esc_html_e( 'Shop Now' ); ?></a>
         
         </div>
 

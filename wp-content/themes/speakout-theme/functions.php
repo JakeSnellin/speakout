@@ -10,14 +10,6 @@ function load_css()
 
         wp_register_style('stylesheet', get_template_directory_uri() . '/src/main.css', '', 1, 'all');
         wp_enqueue_style('stylesheet');
-
-        wp_register_style('abobe fonts', "https://use.typekit.net/yeb5ynu.css");
-        wp_enqueue_style('adobe fonts');
-
-        wp_register_style('google fonts', '<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">');
-        wp_enqueue_style('google fonts');
 }
 add_action('wp_enqueue_scripts', 'load_css');
 
@@ -37,6 +29,7 @@ add_action('wp_enqueue_scripts', 'load_js');
 function custom_img_sizes()
 {
     add_theme_support( 'post-thumbnails');
+    add_image_size('checkout-thumb', 109.75, 141.5, true);
     add_image_size( 'small-thumb', 439, 566, true);
     add_image_size( 'large-thumb', 800, 400, true);
 }
@@ -84,6 +77,8 @@ function wc_save_account_details_required_fields( $required_fields ){
 }
 add_filter('woocommerce_save_account_details_required_fields', 'wc_save_account_details_required_fields' );
 
+/*
+
 function login_error_message($error){
 
     //check if that's the error you are looking for
@@ -117,6 +112,8 @@ function empty_field_error_message($error){
     return $error;
 }
 add_filter('login_errors','empty_field_error_message');
+
+*/
 
 
 

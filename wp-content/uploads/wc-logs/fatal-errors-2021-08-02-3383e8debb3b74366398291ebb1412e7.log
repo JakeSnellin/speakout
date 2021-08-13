@@ -1,0 +1,127 @@
+2021-08-02T08:57:01+00:00 CRITICAL Unclosed '{' on line 194 in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 217
+
+2021-08-02T08:57:01+00:00 CRITICAL Unclosed '{' on line 194 in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 217
+
+2021-08-02T10:13:17+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 209
+
+2021-08-02T10:13:18+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 209
+
+2021-08-02T10:13:58+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:211
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php(202): get_error_message()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): my_authenticate(Object(WP_Error), 'jake_snellin@ho...', '')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(Object(WP_Error), Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\pluggable.php(593): apply_filters('authenticate', NULL, 'jake_snellin@ho...', '')
+#4 C:\xampp\htdocs\wordpress\wp-includes\user.php(95): wp_authenticate('jake_snellin@ho...', '')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(965): wp_signon(Array, false)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_Form_Handler::process_login('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 211
+
+2021-08-02T12:17:49+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 199
+
+2021-08-02T12:17:50+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 199
+
+2021-08-02T14:23:49+00:00 CRITICAL Cannot redeclare checkout_fields_inline_label_error() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:197) in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 210
+
+2021-08-02T14:23:49+00:00 CRITICAL Cannot redeclare checkout_fields_inline_label_error() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:197) in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 210
+
+2021-08-02T15:18:48+00:00 CRITICAL syntax error, unexpected single-quoted string "authenticate_user", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 208
+
+2021-08-02T15:18:48+00:00 CRITICAL syntax error, unexpected single-quoted string "authenticate_user", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 208
+
+2021-08-02T16:40:16+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 216
+
+2021-08-02T16:40:17+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 216
+
+2021-08-02T16:40:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "login_fields_inline_label_error" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\myaccount\form-login.php(36): do_action('woocommerce_log...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#7 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_my...')
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#13 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#14 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#17 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#18 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 303
+
+2021-08-02T17:19:47+00:00 CRITICAL Uncaught Error: Call to undefined function hideBlock() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:232
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): login_fields_inline_label_error('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\myaccount\form-login.php(36): do_action('woocommerce_log...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#8 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#15 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#19 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 232
+
+2021-08-02T18:04:44+00:00 CRITICAL Uncaught Error: Call to undefined function insertAfter() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:222
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): login_fields_inline_label_error('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\myaccount\form-login.php(36): do_action('woocommerce_log...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#8 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_my...')
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#15 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\page.php(4): get_template_part('includes/sectio...', 'content')
+#19 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 222
+
+2021-08-02T18:05:57+00:00 CRITICAL Unclosed '{' on line 214 in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 241
+
+2021-08-02T18:05:58+00:00 CRITICAL Unclosed '{' on line 214 in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 241
+

@@ -5,7 +5,7 @@
 
 <hr>
 
-<h2 class="heading-block">Featured Artists</h2>
+<h1 class="heading-block">Featured Artists</h1>
 
     <section class="artists-thumb-container">
 
@@ -27,31 +27,31 @@
 
 <section class="artist-wrapper">
 
-<h2>Artists</h2>
+<h1>Artists</h1>
 
     <div class="artist-container">
 
-        <h4>Artist Name</h4>
+        <h2>Artist Name</h2>
 
         <img src="<?php bloginfo('template_directory');?>../Images/featured_artist.jpg" class="img-fluid">
 
-        <h4>Artist Name</h4>
+        <h2>Artist Name</h2>
 
         <img src="<?php bloginfo('template_directory');?>../Images/featured_artist.jpg" class="img-fluid">
 
-        <h4>Artist Name</h4>
+        <h2>Artist Name</h2>
 
         <img src="<?php bloginfo('template_directory');?>../Images/featured_artist.jpg" class="img-fluid">
 
-        <h4>Artist Name</h4>
+        <h2>Artist Name</h2>
 
         <img src="<?php bloginfo('template_directory');?>../Images/featured_artist.jpg" class="img-fluid">
 
-        <h4>Artist Name</h4>
+        <h2>Artist Name</h2>
 
         <img src="<?php bloginfo('template_directory');?>../Images/featured_artist.jpg" class="img-fluid">
 
-        <h4>Artist Name</h4>
+        <h2>Artist Name</h2>
 
         <img src="<?php bloginfo('template_directory');?>../Images/featured_artist.jpg" class="img-fluid">
 

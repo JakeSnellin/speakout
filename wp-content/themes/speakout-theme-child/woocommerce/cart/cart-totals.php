@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 
 	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
-	<h4><?php esc_html_e( 'Payment Summary', 'woocommerce' );?></h4>
+	<h3><?php esc_html_e( 'Payment Summary', 'woocommerce' );?></h3>
 
 	<!--<h2><?php// esc_html_e( 'Cart totals', 'woocommerce' ); ?></h2>-->
 

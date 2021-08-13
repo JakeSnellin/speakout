@@ -4,85 +4,12 @@
     --clr-secondary: #6e6e6e;
 }
 
-h1{
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    letter-spacing: 1px;
+.woocommerce ul.products li.product .price{
     color: var(--clr-primary);
-    margin: 0;
-}
-
-h2{
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 32px;
-    color: var(--clr-primary);
-    margin: 0;
-}
-
-h3{
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 450;
-    font-size: 28px;
-    letter-spacing: 1px;
-    color: var(--clr-primary);
-    margin: 0;
-}
-
-h4{
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    letter-spacing: 1px;
-    margin: 0;
-}
-
-h5{
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 450;
-    font-size: 24px;
-    letter-spacing: 1px;
-
-    color: #1A1A1A;
-    margin: 0;
-}
-
-.woocommerce-shipping-fields p{
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-
-    letter-spacing: 1px;
-
-
-    color: #1A1A1A;
 }
 
 .title{
     padding-bottom: 18px;
-}
-
-p{
-    
-    font-family: urw-form, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14px;
-    letter-spacing: 1.25px;
-    color: var(--clr-primary);
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
 }
 
 body {
@@ -93,105 +20,6 @@ body {
 
 .wrapper{
     margin: 0 24px;
-}
-
-.logo{
-    
-    width: 21px;
-    height: 28px;
-}
-
-#logo-link{
-
-    padding: 14px;
-    margin-left: -14px;
-}
-
-.logo-type{
-    margin-left: 24px;
-    z-index: 100;
-}
-
-.top-bar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 54px;
-    padding: 0 24px;
-}
-
-.top-bar ul{
-    margin: 0 -10.5px 0 0;
-    padding: 0;
-    height: 44px;
-}
-
-.top-bar ul li{
-    height: 44px;
-    width: 44px;
-    list-style: none;
-    display: inline-block;
-}
-
-.top-bar ul li a{
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-#header-divider{
-    margin: 0;
-}
-
-header{
-    position: fixed;
-    z-index: 100;
-    background-color: white;
-    width: 100%;
-    margin-top: -103px;
-}
-
-
-header .menu li{
-    list-style: none;
-}
-
-header .menu li a{
-
-    display: block;
-    height: 100%;
-    width: 100%;
-    padding: 0 48px 0 0;
-    text-decoration: none;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    margin-top: 4px;
-    font-size: 14px;
-
-    text-align: center;
-    letter-spacing: 1px;
-
-    color: var(--clr-primary);
-}
-
-header .menu{
-    padding: 0 0 0 24px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    height: 49px;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-header .menu::-webkit-scrollbar {
-    display: none;
 }
 
 #hero{
@@ -215,14 +43,14 @@ header .menu::-webkit-scrollbar {
 .hero-content{
     display: flex;
     flex-direction: column;
-    margin-top: 44px;
+    margin-left: 24px;
+    margin-top: 188px;
 }
 
 .hero-content img{
     position: relative;
     z-index: 20;
     height: 89px;
-    width: 114px;
 }
 
 .home-page-img{
@@ -230,51 +58,9 @@ header .menu::-webkit-scrollbar {
     margin: 0;
 }
 
-.hero-content .btn-light{
+.hero-content .btn{
     z-index: 50;
-    margin-left: 24px;
 }
-
-/* Buttons start */
-
-.btn-large{
-    height: 46px;
-    width: 100%;
-}
-
-.btn-medium{
-    height: 46px;
-    width: 210px;
-}
-
-.btn-small{
-    height: 46px;
-    width: 144px;
-}
-
-.btn{
-
-    font-family: urw-form, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-
-    text-align: center;
-    letter-spacing: 1.5px;
-
-    border-radius: 6px;
-
-    margin-top: 24px;
-}
-
-.btn:focus {
-    box-shadow: none !important;
-  }
-
-/*.collection-btn{
-    margin-top: 33px;
-}*/
-/* Buttons end */
 
 .size-thumbnail, .size-medium, .size-large, .size-full {
     max-width: 100%;
@@ -295,14 +81,6 @@ header .menu::-webkit-scrollbar {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.inner-button-container #btn-woman{
-    margin-top: 16.5px;
-}
-
-.inner-button-container #btn-man{
-    margin-bottom: 16.5px;
 }
 
 /*Footer start*/
@@ -327,14 +105,7 @@ header .menu::-webkit-scrollbar {
 }
 
 .accordion-container ul li a{
-    font-family: urw-form, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 13px;
-
-    letter-spacing: 1px;
-
-    color: var(--clr-primary);
+    
     display: block;
     padding: 9px 0;
 }
@@ -354,7 +125,6 @@ footer .media-icons-container ul li {
 
 footer .media-icons-container ul li .fab {
     font-size: 1.25rem;    
-    
 }
 
 .media-icons-container ul{
@@ -370,8 +140,6 @@ footer .media-icons-container ul li .fab {
     color: var(--clr-primary);
 }
 
-
-
 .media-icons-container ul li #twitter {
     padding: 18px 18px 18px 0 !important;
 }
@@ -380,22 +148,12 @@ footer .media-icons-container ul li .fab {
     padding: 18px 18px;
 }
 
-.subscribe-block p{
-    color: #6e6e6e;
-}
-
 .subscribe-block{
     padding: 0 24px;
 }
 
-/*.btn-subscribe-container{
-    display: flex;
-    justify-content: left;
-    margin: 20px auto;
-}*/
-
 .form-container{
-    height: 44px;
+    height: 50px;
 }
 
 .form-container .btn-subscribe-container{
@@ -407,6 +165,7 @@ footer .media-icons-container ul li .fab {
 .form-container .btn-subscribe-container .btn {
     width: 100%;
     height: 100%;
+    color: #ffff;
 }
 
 /*.fine-print-container a{
@@ -448,14 +207,6 @@ footer .media-icons-container ul li .fab {
     padding: 26.37px 0;
 }
 
-/*.accordion-container .accordion-button p{
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    font-style: normal;
-    color: #1a1a1a;
-}*/
-
 .accordion-body{
     background-color: #F6F6F6;
     padding: 1rem 0;
@@ -481,40 +232,16 @@ footer .media-icons-container ul li .fab {
     box-shadow: none;
 }
 
-#footer-text{
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 12px;
-    text-align: left;
-    padding: 24px 0;
-    color: var(--clr-secondary);
-    padding: 24px;
-}
-
-
 #footer-divider{
     padding: 0;
     margin: 0;
 }
 
-.form-container .form-label{
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: var(--clr-secondary);
-    font-size: 13px;
-}
-
-/*.form-container .form-control:focus{ //this needs to be changed to bootstrap blue border
-    box-shadow: none;
-    border-color: var(--clr-secondary);
-*/
-
 .form-control{
-    border-color: #ced4da;
+    border: 2px solid #E0E0E0;
     width: 52.20588235294118%;
     height: 100%;
+    border-radius: 6px;
 }
 
 .form-container {
@@ -522,36 +249,6 @@ footer .media-icons-container ul li .fab {
     align-items: center;
     margin-bottom: 1rem;
 }
-
-/*.form-container .mb-3{
-    margin-bottom: 0 !important;
-    width: 55%;
-    padding-right: 6px;
-}*/
-
-/*Footer end*/
-
-/*.form-container .form-text{
-    font-size: 13px;
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.form-container .form-label text{
-    font-size: 13px;
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 13px;
-}
-
-.form-check{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}*/
 
 /*Login form start*/
 
@@ -565,7 +262,7 @@ footer .media-icons-container ul li .fab {
 }
 
 .heading-block{
-    margin: 33px 24px 95px 24px;
+    margin: 33px 24px 48px 24px;
     display: flex;
     flex-direction: column;
 }
@@ -577,13 +274,6 @@ footer .media-icons-container ul li .fab {
 }
 
 /*Login form end*/
-
-/*.heading-block h2{
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    color: #1a1a1a;
-}*/
 
 .woocommerce-MyAccount-navigation{
     display: none;
@@ -606,30 +296,16 @@ footer .media-icons-container ul li .fab {
    height: 100%;
    width: 100%;
    display: block;
-   font-family: urw-form, sans-serif;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 14px;
-   letter-spacing: 0.01em;
-   color:  #545454;
-}
-
-#account-modal .menu-account-menu-container ul li a:hover{
-    color: #1a1a1a;
 }
 
 #account-modal .modal-content .modal-body{
     border: none;
     border-radius: 0;
-    padding: 1.5rem;
+    padding: 5rem 1.5rem;
 }
 
 #account-modal .modal-content .modal-header {
     padding: 7rem 1.5rem 1rem 1.5rem;
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    letter-spacing: 1.25px;
-    font-style: normal;
-    color: #1a1a1a;
 }
 
 #account-modal .modal-content{
@@ -648,18 +324,6 @@ footer .media-icons-container ul li .fab {
     padding: .25rem .25rem .25rem 1.5rem;
     background: none;
     box-shadow: none;
-    font-family: urw-form, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
-    /* identical to box height, or 215% */
-
-    letter-spacing: 0.01em;
-
-    /* black */
-
-    color: #545454;
     opacity: 1;
 }
 
@@ -677,6 +341,11 @@ footer .media-icons-container ul li .fab {
     position: relative;
     display: flex;
     align-items: center;
+    
+}
+
+.blog-hero-container h2{
+    color: #ffff;
 }
 
 .blog-hero-img{
@@ -690,59 +359,23 @@ footer .media-icons-container ul li .fab {
 }
 
 .caption{
+    top: 0;
     position: absolute;
     z-index: 50;
     padding: 24px;
 }
 
-/*.caption h1{
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    letter-spacing: 2.5px;
-    font-style: normal;
-    font-weight: 600;
-    color: white;
-    padding: 24px 0;
-    margin: 0;
-}*/
-
 .caption h1{
     color: white;
-    padding: 24px 0;
-    margin: 0;
-}
-
-.caption h6{
-    color: white;
-    padding-bottom: 12px;
-    margin: 0;
-}
-
-/*h4{
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: 0.25px;
     padding: 12px 0;
-    font-size: 18px;
-    color: #1a1a1a;
     margin: 0;
-}*/
-
-
-/*h2{
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: 0.25px;
-    color: #1a1a1a;
-    padding: 24px 0;
-    margin: 0;
-}*/
+}
 
 .blog-hero-container .blog-hero-logo{
     position: relative;
     z-index: 20;
     width: fit-content;
+    padding: 12px 0;
 }
 
 .blog-hero-container .blog-hero-logo img{
@@ -754,38 +387,15 @@ footer .media-icons-container ul li .fab {
     padding: 24px;
 }
 
-.excerpt-container h4{
-    margin-bottom: 20px;
+.excerpt-container h1{
+    margin-bottom: 1.25rem;
 }
 
 .excerpt-container p{
     padding-bottom: 12px;
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.25px;
-    color: #1a1a1a;
-}
-
-.excerpt-container a {
-    text-decoration: underline !important;
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.25px;
-    color: #1a1a1a;
 }
 
 .pagination-links a{
-    text-decoration: underline !important;
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.25px;
-    color: #1a1a1a;
     padding: 24px;
 }
 
@@ -809,21 +419,10 @@ footer .media-icons-container ul li .fab {
     padding: 24px;
 }
 
-/*Blog start*/
-
-/*Search Bar*/
-
 /*Shop page start*/
-
-.tax-product_cat h1{
-    color: var(--clr-primary);
-    padding: 24px 5px 0 24px;
-}
 
 .woocommerce ul.products li.product a img{
    width: 100%;
-   /*height: 65.004%;*/
-   /*aspect-ratio: 0.774869109947644/1;*/
 }
 
 .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product{
@@ -866,22 +465,6 @@ footer .media-icons-container ul li .fab {
     display: none;
 }
 
-/*.woocommerce ul.products li.product .price{
-    color: var(--clr-primary);
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: 0.25px;
-}*/
-
-/*Shop page end*/
-
-/*.woocommerce{
-    padding: 24px;
-}*/
-
-/*Customer login headings */
-
 /*Customer login form*/
 
 .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register{
@@ -890,37 +473,7 @@ footer .media-icons-container ul li .fab {
     padding: 0 24px;
 }
 
-.woocommerce form .form-row{
-    padding-left: 0;
-}
-
-.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
-    display: flex;
-    align-content: center;
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: var(--clr-secondary);
-    font-size: 13px;
-
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.woocommerce form .show-password-input::after, .woocommerce-page form .show-password-input{
+.woocommerce form .show-password-input{
     content: url(../Images/eye_img.svg);
 }
 
@@ -929,8 +482,6 @@ footer .media-icons-container ul li .fab {
 }
 
 .woocommerce-LostPassword a{
-    color: var(--clr-secondary);
-    text-decoration: underline;
     padding-bottom: 33px;
 }
 
@@ -949,34 +500,10 @@ footer .media-icons-container ul li .fab {
     display: block;
 }
 
-.woocommerce-privacy-policy-text p{
-    color: var(--clr-secondary);
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: 0.25px;
-    font-size: 12px;
-    
-}
-
-.woocommerce-privacy-policy-text a{
-    color: var(--clr-secondary);
-    text-decoration: underline;
-    font-family: din-1451-lt-pro-engschrift, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: 0.25px;
-    font-size: 12px;
-}
-
 .woocommerce .woocommerce-form-register__submit{
     margin-top: 33px;
     display: block;
 }
-
-/*Customer login form end*/
-
-/*Customer account details/change password*/
 
 .woocommerce form .form-row-first{
     width: 100%;

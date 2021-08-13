@@ -7,10 +7,6 @@
         <div class="blog-hero-logo">
             <img src="<?php bloginfo('template_directory');?>/Images/logo_type_condensed_white.svg" class="img-fluid">
         </div>
-        
-        <h1>Magazine</h1>
-
-        <h6>Latest music and fashion news</h6>
 
     </div>
     
@@ -21,7 +17,7 @@
 
 
 <div class="heading-block">
-    <h4>Recent Posts</h4>
+    <h1>Recent Posts</h1>
 </div>
 
 <?php get_template_part('includes/section', 'archive');?>

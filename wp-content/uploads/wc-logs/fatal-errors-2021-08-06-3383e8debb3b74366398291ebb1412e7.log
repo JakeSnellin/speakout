@@ -1,0 +1,160 @@
+2021-08-06T12:51:46+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 215
+
+2021-08-06T12:51:46+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 215
+
+2021-08-06T12:51:55+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 215
+
+2021-08-06T12:51:56+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 215
+
+2021-08-06T12:52:49+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 215
+
+2021-08-06T12:52:50+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 215
+
+2021-08-06T16:51:34+00:00 CRITICAL syntax error, unexpected token "/" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 208
+
+2021-08-06T16:51:35+00:00 CRITICAL syntax error, unexpected token "/" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 208
+
+2021-08-06T17:08:54+00:00 CRITICAL syntax error, unexpected token "return" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 213
+
+2021-08-06T17:08:55+00:00 CRITICAL syntax error, unexpected token "return" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 213
+
+2021-08-06T17:10:32+00:00 CRITICAL Cannot redeclare product_image_on_checkout() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:192) in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 216
+
+2021-08-06T17:10:32+00:00 CRITICAL Cannot redeclare product_image_on_checkout() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:192) in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 216
+
+2021-08-06T17:12:12+00:00 CRITICAL syntax error, unexpected variable "$image", expecting ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 213
+
+2021-08-06T17:12:13+00:00 CRITICAL syntax error, unexpected variable "$image", expecting ";" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 213
+
+2021-08-06T17:18:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Variation as array in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:202
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): product_image_on_checkout('Bag - Green, S', Array, 'a9fa8564ab42437...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('Bag - Green, S', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\review-order.php(41): apply_filters('woocommerce_car...', 'Bag - Green, S', Array, 'a9fa8564ab42437...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2263): wc_get_template('checkout/review...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_order_review('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\form-checkout.php(59): do_action('woocommerce_che...')
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#12 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#14 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#15 [internal function]: do_shortcode_tag(Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#18 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#19 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#20 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#21 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#23 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#24 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\template-shop.php(9): get_template_part('includes/sectio...', 'content')
+#25 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#27 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#28 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 202
+
+2021-08-06T17:38:17+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::get_total() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:210
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): product_image_on_checkout('Bag - Green, S', Array, 'a9fa8564ab42437...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('Bag - Green, S', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\review-order.php(41): apply_filters('woocommerce_car...', 'Bag - Green, S', Array, 'a9fa8564ab42437...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2263): wc_get_template('checkout/review...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_order_review('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\form-checkout.php(59): do_action('woocommerce_che...')
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#12 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#14 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#15 [internal function]: do_shortcode_tag(Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#18 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#19 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#20 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#21 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#23 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#24 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\template-shop.php(9): get_template_part('includes/sectio...', 'content')
+#25 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#27 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#28 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 210
+
+2021-08-06T17:40:08+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::get_formatted_order_total() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:210
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): product_image_on_checkout('Bag - Green, S', Array, 'a9fa8564ab42437...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('Bag - Green, S', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\review-order.php(41): apply_filters('woocommerce_car...', 'Bag - Green, S', Array, 'a9fa8564ab42437...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2263): wc_get_template('checkout/review...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_order_review('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\form-checkout.php(59): do_action('woocommerce_che...')
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#12 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#14 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#15 [internal function]: do_shortcode_tag(Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#18 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#19 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#20 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#21 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#23 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#24 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\template-shop.php(9): get_template_part('includes/sectio...', 'content')
+#25 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#27 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#28 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 210
+
+2021-08-06T17:40:23+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_order_total() on null in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:210
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): product_image_on_checkout('Bag - Green, S', Array, 'a9fa8564ab42437...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('Bag - Green, S', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\review-order.php(41): apply_filters('woocommerce_car...', 'Bag - Green, S', Array, 'a9fa8564ab42437...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2263): wc_get_template('checkout/review...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_order_review('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\woocommerce\checkout\form-checkout.php(59): do_action('woocommerce_che...')
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#12 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#14 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#15 [internal function]: do_shortcode_tag(Array)
+#16 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#17 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#18 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#19 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#20 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\includes\section-content.php(3): the_content()
+#21 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#23 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#24 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\template-shop.php(9): get_template_part('includes/sectio...', 'content')
+#25 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#27 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#28 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 210
+

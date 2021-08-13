@@ -5,9 +5,6 @@
     <div class="modal-content">
     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">close
         </button>
-      <div class="modal-header">
-        <h6 class="modal-title" id="modal-title">HOME</h6>
-      </div>
       <div class="modal-body">
       <?php wp_nav_menu(
         array(

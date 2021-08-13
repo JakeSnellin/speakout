@@ -1,0 +1,21 @@
+2021-08-09T13:26:15+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:180
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): ShowOneError(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 180
+

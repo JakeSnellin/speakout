@@ -1,0 +1,240 @@
+2021-08-04T13:01:13+00:00 CRITICAL Uncaught Error: Call to undefined function logSomething() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:211
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): ShowOneError(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 211
+
+2021-08-04T13:02:19+00:00 CRITICAL Uncaught Error: Call to undefined function logSomething() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:222
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): ShowOneError(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 222
+
+2021-08-04T13:05:12+00:00 CRITICAL Uncaught Error: Call to undefined function logSomething() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:229
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): call_my_func('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3031): do_action('wp_footer')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\footer.php(1): wp_footer()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\template-shop.php(11): get_footer()
+#9 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 229
+
+2021-08-04T13:05:13+00:00 CRITICAL Uncaught Error: Call to undefined function logSomething() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:229
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): call_my_func('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3031): do_action('wp_footer')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\footer.php(1): wp_footer()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\template-shop.php(11): get_footer()
+#9 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 229
+
+2021-08-04T13:05:39+00:00 CRITICAL Uncaught Error: Call to undefined function logSomething() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:229
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): call_my_func('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3031): do_action('wp_footer')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\footer.php(1): wp_footer()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\template-shop.php(11): get_footer()
+#9 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 229
+
+2021-08-04T13:05:52+00:00 CRITICAL Uncaught Error: Call to undefined function logSomething() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:229
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): call_my_func('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3031): do_action('wp_footer')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\footer.php(1): wp_footer()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme\woocommerce.php(5): get_footer()
+#9 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 229
+
+2021-08-04T13:45:52+00:00 CRITICAL Uncaught Error: Call to undefined function print_notices() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:229
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): check_for_errors(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 229
+
+2021-08-04T13:53:19+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 234
+
+2021-08-04T13:53:20+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 234
+
+2021-08-04T13:53:38+00:00 CRITICAL Uncaught Error: Undefined constant "console" in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:229
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): check_for_errors(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 229
+
+2021-08-04T14:08:20+00:00 CRITICAL Uncaught Error: Call to undefined function call_my_func() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:223
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): ShowOneError(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 223
+
+2021-08-04T14:08:28+00:00 CRITICAL Uncaught Error: Call to undefined function call_my_func() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:223
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): ShowOneError(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 223
+
+2021-08-04T14:08:50+00:00 CRITICAL Uncaught Error: Call to undefined function call_my_func() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:223
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): ShowOneError(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 223
+
+2021-08-04T14:08:57+00:00 CRITICAL Uncaught Error: Call to undefined function call_my_func() in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php:223
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): ShowOneError(Array, Object(WP_Error))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(887): do_action('woocommerce_aft...', Array, Object(WP_Error))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1161): WC_Checkout->validate_checkout(Array, Object(WP_Error))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(466): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\speakout-theme-child\functions.php on line 223
+

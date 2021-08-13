@@ -85,7 +85,7 @@
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             <div class="btn-subscribe-container">
-                <button type="button" id="btn-footer" class="btn btn-dark"><span>Subscribe</span></button>
+                <button type="button" id="btn-footer" class="btn btn-dark">Subscribe</button>
             </div>
     </form>
 
